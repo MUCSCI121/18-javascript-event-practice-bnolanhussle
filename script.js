@@ -6,7 +6,7 @@ function increaseValue(event) {
   let oldValue = inputValue;
   inputValue = inputValue + 1;
   inputElement.value = inputValue;
-  userEvents.push("User requested increase from " + oldValue + " to " + new)
+  userEvents.push("User requested increase from " + oldValue + " to " + newValue);
 }
 
 function decreaseValue(event) {
@@ -15,6 +15,7 @@ function decreaseValue(event) {
     inputValue = inputValue - 1;
     inputElement.value = inputValue;
   }
+  userEvents.push("User requested increase from " + oldValue + " to " + newValue);
 }
 
 function updateValue(event) {
