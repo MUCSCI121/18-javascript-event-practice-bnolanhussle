@@ -42,5 +42,6 @@ function resetValue(event) {
 }
 
 function displayLogs(event){
+    let index = 0;
     
 }
