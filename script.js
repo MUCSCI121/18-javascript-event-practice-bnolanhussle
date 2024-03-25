@@ -40,3 +40,5 @@ function resetValue(event) {
   inputElement.value = inputValue;
   userEvents.push("User requested a reset");
 }
+
+
