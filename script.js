@@ -19,7 +19,7 @@ function updateValue(event) {
   let newValue = inputElement.value;
   inputValue = parseInt(newValue);
   if (inputValue < 0){
-    
+    inputValue = 0;
   }
 }
 
