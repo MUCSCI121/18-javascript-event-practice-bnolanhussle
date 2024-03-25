@@ -1,7 +1,6 @@
-function increaseValue(event){
-    let inputElement = document.getElementById("numValue");
+function increaseValue(event) {
+  let inputElement = document.getElementById("numValue");
+  console.log(inputElement);
 }
 
-function decreaseValue(event){
-
-}
+function decreaseValue(event) {}
