@@ -1,5 +1,5 @@
 let inputValue = 0;
-let 
+let userEvents = [];
 
 function increaseValue(event) {
   let inputElement = document.getElementById("numValue");
