@@ -27,7 +27,7 @@ function updateValue(event) {
     inputValue = 0;
   }
   inputElement.value = inputValue;
-  userEvents.push("User requested decrease from " + oldValue + " to " + newValue);
+  userEvents.push("User typed new value " + oldValue + " to " + newValue);
 
 }
 
