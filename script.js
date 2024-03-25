@@ -8,6 +8,7 @@ function increaseValue(event) {
 
 function decreaseValue(event) {
   let inputElement = document.getElementById("numValue");
+  if (inpu)
   inputValue = inputValue - 1;
   inputElement.value = inputValue;
 }
