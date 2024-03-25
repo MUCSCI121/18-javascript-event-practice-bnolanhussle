@@ -41,13 +41,13 @@ function resetValue(event) {
   userEvents.push("User requested a reset");
 }
 
-function displayLogs(event){
-    let index = 0;
-    let displayText = "";
-    while(index < userEvents.length){
-        displayText += userEvents[idx] + "<br>"
-        index = index + 1;
-    }
-    let divLogs = document.getElementById("logs");
-    divLogs.innerHTML = 
+function displayLogs(event) {
+  let index = 0;
+  let displayText = "";
+  while (index < userEvents.length) {
+    displayText += userEvents[idx] + "<br>";
+    index = index + 1;
+  }
+  let divLogs = document.getElementById("logs");
+  divLogs.innerHTML = displayText;
 }
