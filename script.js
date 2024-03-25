@@ -45,6 +45,6 @@ function displayLogs(event){
     let index = 0;
     let displayText = "";
     while(index < userEvents.length){
-        displayText += userEvents[idx]
+        displayText += userEvents[idx] + "<br>"
     }
 }
