@@ -3,9 +3,10 @@ let userEvents = [];
 
 function increaseValue(event) {
   let inputElement = document.getElementById("numValue");
+  let oldValue = inputValue;
   inputValue = inputValue + 1;
-  
   inputElement.value = inputValue;
+  
 }
 
 function decreaseValue(event) {
