@@ -20,6 +20,8 @@ function updateValue(event) {
   inputValue = parseInt(newValue);
 }
 
-function resetValue(event){
-    inputValue = 0;
+function resetValue(event) {
+  inputValue = 0;
+  let inputElement = document.getElementById("numValue");
+  inputElement.value = inputValue;
 }
