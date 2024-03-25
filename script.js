@@ -27,7 +27,7 @@ function updateValue(event) {
     inputValue = 0;
   }
   inputElement.value = inputValue;
-  userEvents.push("User typed new value " + event.target.value + " to " + newValue);
+  userEvents.push("User typed new value " + event.target.value);
 
 }
 
@@ -35,4 +35,5 @@ function resetValue(event) {
   inputValue = 0;
   let inputElement = document.getElementById("numValue");
   inputElement.value = inputValue;
+  userEvents.push("User typed new value " + event.target.value);
 }
