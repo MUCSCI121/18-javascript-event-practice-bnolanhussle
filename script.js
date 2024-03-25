@@ -4,8 +4,7 @@ let inputValue = 0;
 
 function increaseValue(event) {
   let inputElement = document.getElementById("numValue");
-  console.log("Original: ", inputElement.value);
-  let newValue = inputElement.value + 1;
+    inputValue = input
 
   console.log("New Value: ", newValue);
 }
