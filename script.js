@@ -43,7 +43,8 @@ function resetValue(event) {
 
 function displayLogs(event){
     let index = 0;
+    
     while(index < userEvents.length){
-        
+
     }
 }
