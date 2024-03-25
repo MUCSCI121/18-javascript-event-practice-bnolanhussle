@@ -47,4 +47,6 @@ function displayLogs(event){
     while(index < userEvents.length){
         displayText += userEvents[idx] + "<br>"
     }
+    let divLogs = document.getElementById("logs");
+    
 }
