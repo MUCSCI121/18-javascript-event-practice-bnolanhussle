@@ -41,4 +41,6 @@ function resetValue(event) {
   userEvents.push("User requested a reset");
 }
 
-
+function displayLogs(event){
+    
+}
