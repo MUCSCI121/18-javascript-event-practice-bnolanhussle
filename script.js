@@ -19,7 +19,7 @@ function decreaseValue(event) {
     inputElement.value = inputValue;
   }
   userEvents.push(
-    "User requested decrease from " + oldValue + " to " + newValue
+    "User requested decrease from " + oldValue + " to " + inputValue
   );
 }
 
