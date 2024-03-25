@@ -1,3 +1,3 @@
-function clicked(){
-    
+function clicked() {
+  alert("I was clicked");
 }
