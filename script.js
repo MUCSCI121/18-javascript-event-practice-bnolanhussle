@@ -18,9 +18,10 @@ function updateValue(event) {
   let inputElement = document.getElementById("numValue");
   let newValue = inputElement.value;
   inputValue = parseInt(newValue);
-  if (inputValue < 0){
+  if (inputValue < 0) {
     inputValue = 0;
   }
+  inputElement.value = inputValue;
 }
 
 function resetValue(event) {
