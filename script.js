@@ -11,11 +11,12 @@ function increaseValue(event) {
 
 function decreaseValue(event) {
   let inputElement = document.getElementById("numValue");
+  let oldValue = inputValue;
   if (inputValue > 0) {
     inputValue = inputValue - 1;
     inputElement.value = inputValue;
   }
-  userEvents.push("User requested increase from " + oldValue + " to " + newValue);
+  userEvents.push("User requested decrease from " + oldValue + " to " + newValue);
 }
 
 function updateValue(event) {
