@@ -7,7 +7,7 @@ function increaseValue(event) {
   inputValue = inputValue + 1;
   inputElement.value = inputValue;
   userEvents.push(
-    "User requested increase from " + oldValue + " to " + newValue
+    "User requested increase from " + oldValue + " to " + inputValue
   );
 }
 
