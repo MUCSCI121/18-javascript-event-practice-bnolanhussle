@@ -7,7 +7,13 @@
   <body>
     <div>
       <button onclick="decreaseValue(event)">Decrease</button>
-      <input type="number" value="0" id="numValue" name="numValue" onchange="update"/>
+      <input
+        type="number"
+        value="0"
+        id="numValue"
+        name="numValue"
+        onchange="updateValue(event)"
+      />
       <button onclick="increaseValue(event)">Increase</button>
     </div>
     <div>
