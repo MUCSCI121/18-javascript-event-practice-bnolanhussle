@@ -21,5 +21,5 @@ function updateValue(event) {
 }
 
 function resetValue(event){
-    
+    inputValue = 0;
 }
