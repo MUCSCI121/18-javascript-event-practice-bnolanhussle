@@ -1,3 +1,4 @@
+let inputValue = 0;
 
 
 
