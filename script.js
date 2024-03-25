@@ -4,6 +4,7 @@ let userEvents = [];
 function increaseValue(event) {
   let inputElement = document.getElementById("numValue");
   inputValue = inputValue + 1;
+  
   inputElement.value = inputValue;
 }
 
