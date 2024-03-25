@@ -1,7 +1,7 @@
 function increaseValue(event) {
   let inputElement = document.getElementById("numValue");
   console.log(inputElement);
-  inputElement =
+  let newValue = inputElement.value + 1;
 }
 
 function decreaseValue(event) {}
