@@ -6,7 +6,9 @@ function increaseValue(event) {
   let oldValue = inputValue;
   inputValue = inputValue + 1;
   inputElement.value = inputValue;
-  userEvents.push("User requested increase from " + oldValue + " to " + newValue);
+  userEvents.push(
+    "User requested increase from " + oldValue + " to " + newValue
+  );
 }
 
 function decreaseValue(event) {
@@ -16,7 +18,9 @@ function decreaseValue(event) {
     inputValue = inputValue - 1;
     inputElement.value = inputValue;
   }
-  userEvents.push("User requested decrease from " + oldValue + " to " + newValue);
+  userEvents.push(
+    "User requested decrease from " + oldValue + " to " + newValue
+  );
 }
 
 function updateValue(event) {
@@ -28,12 +32,11 @@ function updateValue(event) {
   }
   inputElement.value = inputValue;
   userEvents.push("User typed new value " + event.target.value);
-
 }
 
 function resetValue(event) {
   inputValue = 0;
   let inputElement = document.getElementById("numValue");
   inputElement.value = inputValue;
-  userEvents.push("User typed new value " + event.target.value);
+  userEvents.push("User requested a reset");
 }
