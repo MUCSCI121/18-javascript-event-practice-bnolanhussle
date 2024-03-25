@@ -19,3 +19,7 @@ function updateValue(event) {
   let newValue = inputElement.value;
   inputValue = parseInt(newValue);
 }
+
+function resetValue(event){
+    
+}
