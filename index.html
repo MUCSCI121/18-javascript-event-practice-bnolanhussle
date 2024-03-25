@@ -6,7 +6,7 @@
   </head>
   <body>
     <div onclick="alert('grand parent')">
-      <div onclick="alert('direct parent');">
+      <div onclick="alert('direct parent'); event.stopPropagation();">
         <input type="text" />
       </div>
     </div>
