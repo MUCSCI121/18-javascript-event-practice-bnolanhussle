@@ -49,5 +49,5 @@ function displayLogs(event){
         index = index + 1;
     }
     let divLogs = document.getElementById("logs");
-    divLogs.
+    divLogs.innerHTML = 
 }
