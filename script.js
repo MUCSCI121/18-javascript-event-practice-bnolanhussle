@@ -13,3 +13,7 @@ function decreaseValue(event) {
     inputElement.value = inputValue;
   }
 }
+
+function updateValue(event){
+    
+}
