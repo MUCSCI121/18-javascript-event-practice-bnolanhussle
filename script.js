@@ -16,5 +16,6 @@ function decreaseValue(event) {
 
 function updateValue(event){
     let inputElement = document.getElementById("numValue");
-    let new
+    let newValue = inputElement.value;
+    
 }
