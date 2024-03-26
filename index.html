@@ -1,29 +1,26 @@
-<!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <div>
-      <button onclick="decreaseValue(event)">Decrease</button>
-      <input
-        type="number"
-        value="0"
-        id="numValue"
-        name="numValue"
-        onchange="updateValue(event)"
-      />
-      <button onclick="increaseValue(event)">Increase</button>
+<head>
+  <title>Lecture 17 Practice</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body onload="updateDisplayedValue(0)">
+  <div>
+    <p>Increase or decrease the value using the buttons. The value can not get below zero.</p>
+    <button onclick="decreaseValue()">Decrease</button>
+    <input size="10" type="number" id="valueDisplay" oninput="userInputValue(event)" />
+    <button onclick="increaseValue()">Increase</button>
+    <br />
+    <button onmouseup="resetValue()">Reset</button>
+    <button onmouseup="showLogs()">Show Logs</button>
+  </div>
+  <div id="logs" style="visibility: hidden;">
+    <h2>Logs</h2>
+    <div id="logEntries">
     </div>
-    <div>
-      <button onclick="resetValue(event);">Reset</button>
-      <button onclick="displayLogs(event);">Show Logs</button>
-    </div>
-    <div>
-      <h3>Logs</h3>
-      <div id="logs"></div>
-    </div>
-    <script src="./script.js"></script>
-  </body>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
