@@ -2,3 +2,24 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: #4e87ad;
+  border: 1px solid lightgray;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+button:active {
+  background-color: #3e6a88;
+}
+
+input {
+  text-align: center;
+}
